@@ -11,7 +11,7 @@ type CategoryService struct {
 	CategoryDB database.Category
 }
 
-func NewCategoryServie(categoryDB database.Category) *CategoryService {
+func NewCategoryService(categoryDB database.Category) *CategoryService {
 	return &CategoryService{CategoryDB: categoryDB}
 }
 
